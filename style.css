@@ -5,13 +5,17 @@ html{
 }
 
 body{
+    display: flex;
     max-width: 100%;
     font-family: Roboto, sans-serif;
 }
-h1{
+
+.first__part{
+    width: 70%;
+}
+.first__part h1{
     color: red;
     text-align: center;
-    font-size: 30px;
 }
 
 p{
@@ -42,6 +46,27 @@ figcaption{
     max-width: 400px;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
-    text-align: center;
 
 }
+
+.second__part{
+    width: 30%;
+    height: 70%;
+    background: rgba(72, 212, 72, 0.411);
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section__aisd{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+.section__aisd:nth-child(1){background: rgb(243, 243, 243); color: rgba(194, 181, 6, 0.911);}
+.section__aisd:nth-child(2){background: rgb(2, 102, 233); color: #fff;}
+.section__aisd:nth-child(3){background: rgb(131, 5, 5); color: #fff;}
+.section__aisd:nth-child(4){background: crimson; color: #fff;}
