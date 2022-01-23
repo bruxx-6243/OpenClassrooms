@@ -6,6 +6,7 @@ html{
 
 body{
     max-width: 100%;
+    font-family: Roboto, sans-serif;
 }
 h1{
     color: red;
@@ -16,6 +17,7 @@ p{
     text-align: justify;
     max-width: 80%;
     margin: 0 auto;
+    font-family: Roboto, sans-serif;
 
 }
 
@@ -38,5 +40,6 @@ figcaption{
     font-size: .786rem;
     max-width: 400px;
     margin: 0 auto;
+    font-family: Roboto, sans-serif;
 
 }
