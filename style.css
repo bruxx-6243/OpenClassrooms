@@ -12,3 +12,25 @@ p{
     margin: 0 auto;
 
 }
+
+#image__git{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+
+img{
+    max-width: 100%;
+    width: 400px;
+    display: block;
+    margin: 30px auto;
+
+
+}
+
+figcaption{
+    font-size: .786rem;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
